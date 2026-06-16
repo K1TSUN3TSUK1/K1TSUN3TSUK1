@@ -1,8 +1,10 @@
 # GitHub Action for generating a contribution graph with a snake eating your contributions.
-permissions:
-  contents: write
+
 name: Generate Snake
 
+permissions:
+  contents: write
+  
 # Controls when the action will run. This action runs every 6 hours.
 
 on:
